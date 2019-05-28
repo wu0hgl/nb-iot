@@ -1,0 +1,21 @@
+data_dir=mimo-test_multiuser_data
+results_dir=mimo-test_multiuser_results
+5G_sim=../../5G-simulator
+ue_values="5 10 20 40"
+mimo_values="1-1-1 2-2-2 4-4-2 2-2-3 4-4-3 2-2-4 4-4-4 8-8-9"
+mimo_descriptions="\
+  \"1x1 TM1 (SISO)\"\
+  \"2x2 TM2 (TxD)\"\
+  \"4x4 TM2 (TxD)\"\
+  \"2x2 TM3 (OLSM)\"\
+  \"4x4 TM3 (OLSM)\"\
+  \"2x2 TM4 (CLSM)\"\
+  \"4x4 TM4 (CLSM)\"\
+  \"8x8 TM9 (8-layer MIMO)\"\
+"
+duration=30
+seed_max=10
+bandwidth=10
+speed=30
+sched_type=8
+max_concurrent_simulations=9

@@ -1,0 +1,1668 @@
+Simulation with SEED = 1
+Duration: 1500 flow: 1500
+TTI Length: 32ms 
+Scheduler NB RR 
+Created eNB - id 1 position (0;0)
+ZONE 6 LOW EDGE 363 DISTANCE 398.853
+Created UE - id 2 position 282.032 282.032
+CREATED CBR APPLICATION, ID 0
+ZONE 4 LOW EDGE 545 DISTANCE 575.475
+Created UE - id 3 position -406.922 406.922
+CREATED CBR APPLICATION, ID 1
+ZONE 8 LOW EDGE 181 DISTANCE 238.17
+Created UE - id 4 position -168.412 168.412
+CREATED CBR APPLICATION, ID 2
+ZONE 4 LOW EDGE 545 DISTANCE 602.792
+Created UE - id 5 position -426.238 -426.238
+CREATED CBR APPLICATION, ID 3
+
+
+
+
+
+TX CBR ID 0 B 1 SIZE 133 SRC 3 DST 1 T 6.54
+RACH INFO SF 6720 WIN 1 COLLISIONS 0 TOT 1
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+
+TX CBR ID 1 B 3 SIZE 133 SRC 5 DST 1 T 7.07
+
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 0 B 1 SIZE 128 SRC 3 DST 1 D 0.756
+
+RACH INFO SF 7360 WIN 1 COLLISIONS 0 TOT 1
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 1 B 3 SIZE 128 SRC 5 DST 1 D 0.866
+
+
+
+
+TX CBR ID 2 B 0 SIZE 133 SRC 2 DST 1 T 10.116
+RACH INFO SF 10240 WIN 1 COLLISIONS 0 TOT 1
+TX CBR ID 3 B 2 SIZE 133 SRC 4 DST 1 T 10.522
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RACH INFO SF 10560 WIN 1 COLLISIONS 0 TOT 1
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 2 B 0 SIZE 128 SRC 2 DST 1 D 0.54
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 3 B 2 SIZE 128 SRC 4 DST 1 D 0.358
+
+
+
+
+
+TX CBR ID 4 B 1 SIZE 133 SRC 3 DST 1 T 16.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 5 B 3 SIZE 133 SRC 5 DST 1 T 17.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 4 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 5 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+
+
+
+
+
+TX CBR ID 6 B 0 SIZE 133 SRC 2 DST 1 T 20.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 6 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 7 B 2 SIZE 133 SRC 4 DST 1 T 20.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 7 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+
+
+
+
+
+TX CBR ID 8 B 1 SIZE 133 SRC 3 DST 1 T 26.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 9 B 3 SIZE 133 SRC 5 DST 1 T 27.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 8 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 9 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 10 B 0 SIZE 133 SRC 2 DST 1 T 30.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 11 B 2 SIZE 133 SRC 4 DST 1 T 30.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 10 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 11 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 12 B 1 SIZE 133 SRC 3 DST 1 T 36.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 13 B 3 SIZE 133 SRC 5 DST 1 T 37.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 12 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 13 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 14 B 0 SIZE 133 SRC 2 DST 1 T 40.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 14 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 15 B 2 SIZE 133 SRC 4 DST 1 T 40.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 15 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 16 B 1 SIZE 133 SRC 3 DST 1 T 46.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 17 B 3 SIZE 133 SRC 5 DST 1 T 47.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 16 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 17 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 18 B 0 SIZE 133 SRC 2 DST 1 T 50.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 19 B 2 SIZE 133 SRC 4 DST 1 T 50.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 18 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 19 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 20 B 1 SIZE 133 SRC 3 DST 1 T 56.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 21 B 3 SIZE 133 SRC 5 DST 1 T 57.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 20 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 21 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 22 B 0 SIZE 133 SRC 2 DST 1 T 60.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 22 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 23 B 2 SIZE 133 SRC 4 DST 1 T 60.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 23 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 24 B 1 SIZE 133 SRC 3 DST 1 T 66.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 25 B 3 SIZE 133 SRC 5 DST 1 T 67.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 24 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 25 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 26 B 0 SIZE 133 SRC 2 DST 1 T 70.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 27 B 2 SIZE 133 SRC 4 DST 1 T 70.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 26 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 27 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 28 B 1 SIZE 133 SRC 3 DST 1 T 76.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 29 B 3 SIZE 133 SRC 5 DST 1 T 77.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 28 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 29 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 30 B 0 SIZE 133 SRC 2 DST 1 T 80.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 30 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 31 B 2 SIZE 133 SRC 4 DST 1 T 80.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 31 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 32 B 1 SIZE 133 SRC 3 DST 1 T 86.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 33 B 3 SIZE 133 SRC 5 DST 1 T 87.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 32 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 33 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 34 B 0 SIZE 133 SRC 2 DST 1 T 90.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 35 B 2 SIZE 133 SRC 4 DST 1 T 90.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 34 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 35 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 36 B 1 SIZE 133 SRC 3 DST 1 T 96.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 37 B 3 SIZE 133 SRC 5 DST 1 T 97.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 36 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 37 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 38 B 0 SIZE 133 SRC 2 DST 1 T 100.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 38 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 39 B 2 SIZE 133 SRC 4 DST 1 T 100.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 39 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 40 B 1 SIZE 133 SRC 3 DST 1 T 106.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 41 B 3 SIZE 133 SRC 5 DST 1 T 107.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 40 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 41 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 42 B 0 SIZE 133 SRC 2 DST 1 T 110.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 43 B 2 SIZE 133 SRC 4 DST 1 T 110.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 42 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 43 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 44 B 1 SIZE 133 SRC 3 DST 1 T 116.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 45 B 3 SIZE 133 SRC 5 DST 1 T 117.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 44 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 45 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 46 B 0 SIZE 133 SRC 2 DST 1 T 120.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 46 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 47 B 2 SIZE 133 SRC 4 DST 1 T 120.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 47 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 48 B 1 SIZE 133 SRC 3 DST 1 T 126.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 49 B 3 SIZE 133 SRC 5 DST 1 T 127.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 48 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 49 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 50 B 0 SIZE 133 SRC 2 DST 1 T 130.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 51 B 2 SIZE 133 SRC 4 DST 1 T 130.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 50 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 51 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 52 B 1 SIZE 133 SRC 3 DST 1 T 136.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 53 B 3 SIZE 133 SRC 5 DST 1 T 137.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 52 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 53 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 54 B 0 SIZE 133 SRC 2 DST 1 T 140.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 54 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 55 B 2 SIZE 133 SRC 4 DST 1 T 140.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 55 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 56 B 1 SIZE 133 SRC 3 DST 1 T 146.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 57 B 3 SIZE 133 SRC 5 DST 1 T 147.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 56 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 57 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 58 B 0 SIZE 133 SRC 2 DST 1 T 150.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 59 B 2 SIZE 133 SRC 4 DST 1 T 150.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 58 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 59 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 60 B 1 SIZE 133 SRC 3 DST 1 T 156.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 61 B 3 SIZE 133 SRC 5 DST 1 T 157.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 60 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 61 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 62 B 0 SIZE 133 SRC 2 DST 1 T 160.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 62 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 63 B 2 SIZE 133 SRC 4 DST 1 T 160.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 63 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 64 B 1 SIZE 133 SRC 3 DST 1 T 166.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 65 B 3 SIZE 133 SRC 5 DST 1 T 167.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 64 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 65 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 66 B 0 SIZE 133 SRC 2 DST 1 T 170.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 67 B 2 SIZE 133 SRC 4 DST 1 T 170.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 66 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 67 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 68 B 1 SIZE 133 SRC 3 DST 1 T 176.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 69 B 3 SIZE 133 SRC 5 DST 1 T 177.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 68 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 69 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 70 B 0 SIZE 133 SRC 2 DST 1 T 180.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 70 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 71 B 2 SIZE 133 SRC 4 DST 1 T 180.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 71 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 72 B 1 SIZE 133 SRC 3 DST 1 T 186.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 73 B 3 SIZE 133 SRC 5 DST 1 T 187.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 72 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 73 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 74 B 0 SIZE 133 SRC 2 DST 1 T 190.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 75 B 2 SIZE 133 SRC 4 DST 1 T 190.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 74 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 75 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 76 B 1 SIZE 133 SRC 3 DST 1 T 196.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 77 B 3 SIZE 133 SRC 5 DST 1 T 197.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 76 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 77 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 78 B 0 SIZE 133 SRC 2 DST 1 T 200.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 78 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 79 B 2 SIZE 133 SRC 4 DST 1 T 200.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 79 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 80 B 1 SIZE 133 SRC 3 DST 1 T 206.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 81 B 3 SIZE 133 SRC 5 DST 1 T 207.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 80 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 81 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 82 B 0 SIZE 133 SRC 2 DST 1 T 210.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 83 B 2 SIZE 133 SRC 4 DST 1 T 210.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 82 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 83 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 84 B 1 SIZE 133 SRC 3 DST 1 T 216.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 85 B 3 SIZE 133 SRC 5 DST 1 T 217.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 84 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 85 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 86 B 0 SIZE 133 SRC 2 DST 1 T 220.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 86 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 87 B 2 SIZE 133 SRC 4 DST 1 T 220.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 87 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 88 B 1 SIZE 133 SRC 3 DST 1 T 226.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 89 B 3 SIZE 133 SRC 5 DST 1 T 227.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 88 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 89 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 90 B 0 SIZE 133 SRC 2 DST 1 T 230.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 91 B 2 SIZE 133 SRC 4 DST 1 T 230.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 90 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 91 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 92 B 1 SIZE 133 SRC 3 DST 1 T 236.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 93 B 3 SIZE 133 SRC 5 DST 1 T 237.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 92 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 93 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 94 B 0 SIZE 133 SRC 2 DST 1 T 240.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 94 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 95 B 2 SIZE 133 SRC 4 DST 1 T 240.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 95 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 96 B 1 SIZE 133 SRC 3 DST 1 T 246.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 97 B 3 SIZE 133 SRC 5 DST 1 T 247.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 96 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 97 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 98 B 0 SIZE 133 SRC 2 DST 1 T 250.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 99 B 2 SIZE 133 SRC 4 DST 1 T 250.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 98 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 99 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 100 B 1 SIZE 133 SRC 3 DST 1 T 256.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 101 B 3 SIZE 133 SRC 5 DST 1 T 257.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 100 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 101 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 102 B 0 SIZE 133 SRC 2 DST 1 T 260.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 102 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 103 B 2 SIZE 133 SRC 4 DST 1 T 260.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 103 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 104 B 1 SIZE 133 SRC 3 DST 1 T 266.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 105 B 3 SIZE 133 SRC 5 DST 1 T 267.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 104 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 105 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 106 B 0 SIZE 133 SRC 2 DST 1 T 270.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 107 B 2 SIZE 133 SRC 4 DST 1 T 270.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 106 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 107 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 108 B 1 SIZE 133 SRC 3 DST 1 T 276.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 109 B 3 SIZE 133 SRC 5 DST 1 T 277.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 108 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 109 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 110 B 0 SIZE 133 SRC 2 DST 1 T 280.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 110 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 111 B 2 SIZE 133 SRC 4 DST 1 T 280.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 111 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 112 B 1 SIZE 133 SRC 3 DST 1 T 286.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 113 B 3 SIZE 133 SRC 5 DST 1 T 287.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 112 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 113 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 114 B 0 SIZE 133 SRC 2 DST 1 T 290.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 115 B 2 SIZE 133 SRC 4 DST 1 T 290.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 114 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 115 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 116 B 1 SIZE 133 SRC 3 DST 1 T 296.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 117 B 3 SIZE 133 SRC 5 DST 1 T 297.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 116 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 117 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 118 B 0 SIZE 133 SRC 2 DST 1 T 300.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 118 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 119 B 2 SIZE 133 SRC 4 DST 1 T 300.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 119 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 120 B 1 SIZE 133 SRC 3 DST 1 T 306.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 121 B 3 SIZE 133 SRC 5 DST 1 T 307.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 120 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 121 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 122 B 0 SIZE 133 SRC 2 DST 1 T 310.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 123 B 2 SIZE 133 SRC 4 DST 1 T 310.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 122 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 123 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 124 B 1 SIZE 133 SRC 3 DST 1 T 316.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 125 B 3 SIZE 133 SRC 5 DST 1 T 317.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 124 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 125 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 126 B 0 SIZE 133 SRC 2 DST 1 T 320.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 126 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 127 B 2 SIZE 133 SRC 4 DST 1 T 320.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 127 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 128 B 1 SIZE 133 SRC 3 DST 1 T 326.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 129 B 3 SIZE 133 SRC 5 DST 1 T 327.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 128 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 129 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 130 B 0 SIZE 133 SRC 2 DST 1 T 330.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 131 B 2 SIZE 133 SRC 4 DST 1 T 330.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 130 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 131 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 132 B 1 SIZE 133 SRC 3 DST 1 T 336.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 133 B 3 SIZE 133 SRC 5 DST 1 T 337.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 132 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 133 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 134 B 0 SIZE 133 SRC 2 DST 1 T 340.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 134 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 135 B 2 SIZE 133 SRC 4 DST 1 T 340.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 135 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 136 B 1 SIZE 133 SRC 3 DST 1 T 346.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 137 B 3 SIZE 133 SRC 5 DST 1 T 347.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 136 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 137 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 138 B 0 SIZE 133 SRC 2 DST 1 T 350.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 139 B 2 SIZE 133 SRC 4 DST 1 T 350.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 138 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 139 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 140 B 1 SIZE 133 SRC 3 DST 1 T 356.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 141 B 3 SIZE 133 SRC 5 DST 1 T 357.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 140 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 141 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 142 B 0 SIZE 133 SRC 2 DST 1 T 360.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 142 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 143 B 2 SIZE 133 SRC 4 DST 1 T 360.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 143 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 144 B 1 SIZE 133 SRC 3 DST 1 T 366.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 145 B 3 SIZE 133 SRC 5 DST 1 T 367.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 144 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 145 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 146 B 0 SIZE 133 SRC 2 DST 1 T 370.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 147 B 2 SIZE 133 SRC 4 DST 1 T 370.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 146 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 147 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 148 B 1 SIZE 133 SRC 3 DST 1 T 376.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 149 B 3 SIZE 133 SRC 5 DST 1 T 377.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 148 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 149 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 150 B 0 SIZE 133 SRC 2 DST 1 T 380.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 150 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 151 B 2 SIZE 133 SRC 4 DST 1 T 380.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 151 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 152 B 1 SIZE 133 SRC 3 DST 1 T 386.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 153 B 3 SIZE 133 SRC 5 DST 1 T 387.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 152 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 153 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 154 B 0 SIZE 133 SRC 2 DST 1 T 390.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 155 B 2 SIZE 133 SRC 4 DST 1 T 390.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 154 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 155 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 156 B 1 SIZE 133 SRC 3 DST 1 T 396.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 157 B 3 SIZE 133 SRC 5 DST 1 T 397.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 156 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 157 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 158 B 0 SIZE 133 SRC 2 DST 1 T 400.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 158 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 159 B 2 SIZE 133 SRC 4 DST 1 T 400.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 159 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 160 B 1 SIZE 133 SRC 3 DST 1 T 406.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 161 B 3 SIZE 133 SRC 5 DST 1 T 407.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 160 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 161 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 162 B 0 SIZE 133 SRC 2 DST 1 T 410.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 163 B 2 SIZE 133 SRC 4 DST 1 T 410.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 162 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 163 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 164 B 1 SIZE 133 SRC 3 DST 1 T 416.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 165 B 3 SIZE 133 SRC 5 DST 1 T 417.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 164 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 165 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 166 B 0 SIZE 133 SRC 2 DST 1 T 420.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 166 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 167 B 2 SIZE 133 SRC 4 DST 1 T 420.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 167 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 168 B 1 SIZE 133 SRC 3 DST 1 T 426.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 169 B 3 SIZE 133 SRC 5 DST 1 T 427.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 168 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 169 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 170 B 0 SIZE 133 SRC 2 DST 1 T 430.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 171 B 2 SIZE 133 SRC 4 DST 1 T 430.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 170 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 171 B 2 SIZE 128 SRC 4 DST 1 D 0.294
+TX CBR ID 172 B 1 SIZE 133 SRC 3 DST 1 T 436.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 173 B 3 SIZE 133 SRC 5 DST 1 T 437.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 172 B 1 SIZE 128 SRC 3 DST 1 D 0.548
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 173 B 3 SIZE 128 SRC 5 DST 1 D 0.562
+TX CBR ID 174 B 0 SIZE 133 SRC 2 DST 1 T 440.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 174 B 0 SIZE 128 SRC 2 DST 1 D 0.396
+TX CBR ID 175 B 2 SIZE 133 SRC 4 DST 1 T 440.522
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 175 B 2 SIZE 128 SRC 4 DST 1 D 0.31
+TX CBR ID 176 B 1 SIZE 133 SRC 3 DST 1 T 446.54
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 177 B 3 SIZE 133 SRC 5 DST 1 T 447.07
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 176 B 1 SIZE 128 SRC 3 DST 1 D 0.564
+translate: 85
+StartRx mcs: 4 Data to Translate : 56
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+translate: 69
+StartRx mcs: 4 Data to Translate : 0
+CheckForPhysicalError: 4
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 177 B 3 SIZE 128 SRC 5 DST 1 D 0.546
+TX CBR ID 178 B 0 SIZE 133 SRC 2 DST 1 T 450.116
+translate: 125
+StartRx mcs: 6 Data to Translate : 16
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+TX CBR ID 179 B 2 SIZE 133 SRC 4 DST 1 T 450.522
+translate: 32
+StartRx mcs: 6 Data to Translate : 0
+CheckForPhysicalError: 6
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 178 B 0 SIZE 128 SRC 2 DST 1 D 0.412
+translate: 173
+StartRx mcs: 8 Data to Translate : 0
+CheckForPhysicalError: 8
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 179 B 2 SIZE 128 SRC 4 DST 1 D 0.294

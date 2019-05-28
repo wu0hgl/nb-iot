@@ -1,0 +1,14 @@
+density_values="50 75 100"
+speed_values="3 120"
+
+isd=0.5
+bitrate=50
+duration=3
+seed_max=10
+
+KPI0_cdf_data_time="${results_dir}/KPI0_cdf_time_rural.txt"
+KPI0_cdf_data_space="${results_dir}/KPI0_cdf_space_rural.txt"
+
+KPI0_data="${results_dir}/KPI0_data_rural.txt"
+KPI1_data="${results_dir}/KPI1_data_rural.txt"
+KPI2_data="${results_dir}/KPI2_data_rural.txt"

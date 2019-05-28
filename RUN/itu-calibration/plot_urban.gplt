@@ -1,0 +1,79 @@
+set terminal pngcairo dashed size 1600,1200 font 'Verdana,20'
+
+set output "pathgain_urban.png"
+set title "Pathgain (urban macrocell)"
+set xlabel "Pathgain (dB)"
+set ylabel "CDF"
+set grid
+set xrange [-140:-40]
+set key bottom right
+plot \
+  "reference_data/ref_urban_pathgain.txt" using 2:1 with lines lt 1 lc 1 title "Ericsson",\
+  "reference_data/ref_urban_pathgain.txt" using 3:1 with lines lt 1 lc 2 title "Huawei",\
+  "reference_data/ref_urban_pathgain.txt" using 4:1 with lines lt 1 lc 3 title "CATT",\
+  "reference_data/ref_urban_pathgain.txt" using 5:1 with lines lt 1 lc 4 title "DOCOMO",\
+  "reference_data/ref_urban_pathgain.txt" using 6:1 with lines lt 1 lc 5 title "Samsung",\
+  "reference_data/ref_urban_pathgain.txt" using 7:1 with lines lt 1 lc 6 title "LGE",\
+  "reference_data/ref_urban_pathgain.txt" using 8:1 with lines lt 1 lc 7 title "CMCC",\
+  "reference_data/ref_urban_pathgain.txt" using 9:1 with lines lt 1 lc 8 title "Fujitsu",\
+  "reference_data/ref_urban_pathgain.txt" using 10:1 with lines lt 1 lc 9 title "TI",\
+  "reference_data/ref_urban_pathgain.txt" using 11:1 with lines lt 1 lc 10 title "Nokia/NSN",\
+  "reference_data/ref_urban_pathgain.txt" using 12:1 with lines lt 1 lc 11 title "ZTE",\
+  "reference_data/ref_urban_pathgain.txt" using 13:1 with lines lt 1 lc 12 title "Panasonic",\
+  "reference_data/ref_urban_pathgain.txt" using 14:1 with lines lt 1 lc 13 title "Motorola",\
+  "reference_data/ref_urban_pathgain.txt" using 15:1 with lines lt 1 lc 14 title "NEC",\
+  "reference_data/ref_urban_pathgain.txt" using 16:1 with lines lt 1 lc 15 title "RITT",\
+  "reference_data/ref_urban_pathgain.txt" using 17:1 with lines lt 1 lc 16 title "CHTTL",\
+  "reference_data/ref_urban_pathgain.txt" using 18:1 with lines lt 1 lc 17 title "QCOM",\
+  "output/Urban_Macro_cell_1a_rand/cdf_pathgain_step1_Urban_Macro_cell_1a_rand" with lines lt 2 lc "blue" lw 3 title "LTE-Sim"
+
+set output "sinr_urban.png"
+set title "Wideband SINR, without fast fading (urban macrocell)"
+set xlabel "SINR (dB)"
+set ylabel "CDF"
+set grid
+set xrange [-10:20]
+set key bottom right
+plot \
+  "reference_data/ref_urban_sinr.txt" using 2:1 with lines lt 1 lc 1 title "Ericsson",\
+  "reference_data/ref_urban_sinr.txt" using 3:1 with lines lt 1 lc 2 title "Huawei",\
+  "reference_data/ref_urban_sinr.txt" using 4:1 with lines lt 1 lc 3 title "CATT",\
+  "reference_data/ref_urban_sinr.txt" using 5:1 with lines lt 1 lc 4 title "DOCOMO",\
+  "reference_data/ref_urban_sinr.txt" using 6:1 with lines lt 1 lc 5 title "Samsung",\
+  "reference_data/ref_urban_sinr.txt" using 7:1 with lines lt 1 lc 6 title "LGE",\
+  "reference_data/ref_urban_sinr.txt" using 8:1 with lines lt 1 lc 7 title "CMCC",\
+  "reference_data/ref_urban_sinr.txt" using 9:1 with lines lt 1 lc 8 title "Fujitsu",\
+  "reference_data/ref_urban_sinr.txt" using 10:1 with lines lt 1 lc 9 title "TI",\
+  "reference_data/ref_urban_sinr.txt" using 11:1 with lines lt 1 lc 10 title "Nokia/NSN",\
+  "reference_data/ref_urban_sinr.txt" using 12:1 with lines lt 1 lc 11 title "ZTE",\
+  "reference_data/ref_urban_sinr.txt" using 13:1 with lines lt 1 lc 12 title "Panasonic",\
+  "reference_data/ref_urban_sinr.txt" using 14:1 with lines lt 1 lc 13 title "Motorola",\
+  "reference_data/ref_urban_sinr.txt" using 15:1 with lines lt 1 lc 14 title "NEC",\
+  "reference_data/ref_urban_sinr.txt" using 16:1 with lines lt 1 lc 15 title "RITT",\
+  "reference_data/ref_urban_sinr.txt" using 17:1 with lines lt 1 lc 16 title "CHTTL",\
+  "reference_data/ref_urban_sinr.txt" using 18:1 with lines lt 1 lc 17 title "QCOM",\
+  "output/Urban_Macro_cell_1a_rand/cdf_sinr_step1_Urban_Macro_cell_1a_rand" with lines lt 2 lc "blue" lw 3 title "LTE-Sim"
+
+set output "sinr_urban_ff.png"
+set title "Average SINR, with fast fading (urban macrocell)"
+set xlabel "SINR (dB)"
+set ylabel "CDF"
+set key bottom right
+plot \
+  "reference_data/ref_urban_sinr_ff.txt" using 2:1 with lines lt 1 lc 1 title "LGE",\
+  "reference_data/ref_urban_sinr_ff.txt" using 3:1 with lines lt 1 lc 2 title "Ericsson",\
+  "reference_data/ref_urban_sinr_ff.txt" using 4:1 with lines lt 1 lc 3 title "TI",\
+  "reference_data/ref_urban_sinr_ff.txt" using 5:1 with lines lt 1 lc 4 title "DOCOMO",\
+  "reference_data/ref_urban_sinr_ff.txt" using 6:1 with lines lt 1 lc 5 title "RIM",\
+  "reference_data/ref_urban_sinr_ff.txt" using 7:1 with lines lt 1 lc 6 title "RITT",\
+  "reference_data/ref_urban_sinr_ff.txt" using 8:1 with lines lt 1 lc 7 title "CATT",\
+  "reference_data/ref_urban_sinr_ff.txt" using 9:1 with lines lt 1 lc 8 title "NSN/Nokia",\
+  "reference_data/ref_urban_sinr_ff.txt" using 10:1 with lines lt 1 lc 9 title "Motorola",\
+  "reference_data/ref_urban_sinr_ff.txt" using 11:1 with lines lt 1 lc 10 title "ZTE",\
+  "reference_data/ref_urban_sinr_ff.txt" using 12:1 with lines lt 1 lc 11 title "Huawei",\
+  "reference_data/ref_urban_sinr_ff.txt" using 13:1 with lines lt 1 lc 12 title "Samsung",\
+  "reference_data/ref_urban_sinr_ff.txt" using 14:1 with lines lt 1 lc 13 title "CMCC",\
+  "reference_data/ref_urban_sinr_ff.txt" using 15:1 with lines lt 1 lc 14 title "Qualcomm",\
+  "reference_data/ref_urban_sinr_ff.txt" using 16:1 with lines lt 1 lc 15 title "Panasonic",\
+  "reference_data/ref_urban_sinr_ff.txt" using 17:1 with lines lt 1 lc 16 title "NEC",\
+  "output/Urban_Macro_cell_1a_rand/cdf_sinr_Urban_Macro_cell_1a_rand" with lines lt 2 lc "blue" lw 3 title "LTE-Sim"

@@ -1,0 +1,4 @@
+data_dir=uc1_data
+results_dir=uc1_results
+lte_sim=../../5G-simulator
+max_concurrent_simulations=9

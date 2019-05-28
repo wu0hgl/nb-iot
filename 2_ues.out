@@ -1,0 +1,380 @@
+Simulation with SEED = 1
+Duration: 1500 flow: 1500
+TTI Length: 32ms 
+Scheduler NB RR 
+Created eNB - id 1 position (0;0)
+ZONE 6 LOW EDGE 363 DISTANCE 398.853
+Created UE - id 2 position 282.032 282.032
+CREATED CBR APPLICATION, ID 0
+ZONE 4 LOW EDGE 545 DISTANCE 575.475
+Created UE - id 3 position -406.922 406.922
+CREATED CBR APPLICATION, ID 1
+
+
+
+TX CBR ID 0 B 1 SIZE 133 SRC 3 DST 1 T 34.238
+RACH INFO SF 34240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 0 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+
+
+
+TX CBR ID 1 B 0 SIZE 133 SRC 2 DST 1 T 55.699
+RACH INFO SF 56000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 1 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+
+
+
+TX CBR ID 2 B 1 SIZE 133 SRC 3 DST 1 T 94.238
+RACH INFO SF 94400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 2 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+
+
+
+TX CBR ID 3 B 0 SIZE 133 SRC 2 DST 1 T 115.699
+RACH INFO SF 115840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 3 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+
+
+
+TX CBR ID 4 B 1 SIZE 133 SRC 3 DST 1 T 154.238
+RACH INFO SF 154240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 4 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+
+
+
+TX CBR ID 5 B 0 SIZE 133 SRC 2 DST 1 T 175.699
+RACH INFO SF 176000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 5 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 6 B 1 SIZE 133 SRC 3 DST 1 T 214.238
+RACH INFO SF 214400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 6 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 7 B 0 SIZE 133 SRC 2 DST 1 T 235.699
+RACH INFO SF 235840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 7 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 8 B 1 SIZE 133 SRC 3 DST 1 T 274.238
+RACH INFO SF 274240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 8 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 9 B 0 SIZE 133 SRC 2 DST 1 T 295.699
+RACH INFO SF 296000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 9 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 10 B 1 SIZE 133 SRC 3 DST 1 T 334.238
+RACH INFO SF 334400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 10 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 11 B 0 SIZE 133 SRC 2 DST 1 T 355.699
+RACH INFO SF 355840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 11 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 12 B 1 SIZE 133 SRC 3 DST 1 T 394.238
+RACH INFO SF 394240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 12 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 13 B 0 SIZE 133 SRC 2 DST 1 T 415.699
+RACH INFO SF 416000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 13 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 14 B 1 SIZE 133 SRC 3 DST 1 T 454.238
+RACH INFO SF 454400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 14 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 15 B 0 SIZE 133 SRC 2 DST 1 T 475.699
+RACH INFO SF 475840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 15 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 16 B 1 SIZE 133 SRC 3 DST 1 T 514.238
+RACH INFO SF 514240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 16 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 17 B 0 SIZE 133 SRC 2 DST 1 T 535.699
+RACH INFO SF 536000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 17 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 18 B 1 SIZE 133 SRC 3 DST 1 T 574.238
+RACH INFO SF 574400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 18 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 19 B 0 SIZE 133 SRC 2 DST 1 T 595.699
+RACH INFO SF 595840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 19 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 20 B 1 SIZE 133 SRC 3 DST 1 T 634.238
+RACH INFO SF 634240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 20 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 21 B 0 SIZE 133 SRC 2 DST 1 T 655.699
+RACH INFO SF 656000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 21 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 22 B 1 SIZE 133 SRC 3 DST 1 T 694.238
+RACH INFO SF 694400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 22 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 23 B 0 SIZE 133 SRC 2 DST 1 T 715.699
+RACH INFO SF 715840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 23 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 24 B 1 SIZE 133 SRC 3 DST 1 T 754.238
+RACH INFO SF 754240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 24 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 25 B 0 SIZE 133 SRC 2 DST 1 T 775.699
+RACH INFO SF 776000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 25 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 26 B 1 SIZE 133 SRC 3 DST 1 T 814.238
+RACH INFO SF 814400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 26 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 27 B 0 SIZE 133 SRC 2 DST 1 T 835.699
+RACH INFO SF 835840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 27 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 28 B 1 SIZE 133 SRC 3 DST 1 T 874.238
+RACH INFO SF 874240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 28 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 29 B 0 SIZE 133 SRC 2 DST 1 T 895.699
+RACH INFO SF 896000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 29 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 30 B 1 SIZE 133 SRC 3 DST 1 T 934.238
+RACH INFO SF 934400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 30 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 31 B 0 SIZE 133 SRC 2 DST 1 T 955.699
+RACH INFO SF 955840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 31 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 32 B 1 SIZE 133 SRC 3 DST 1 T 994.238
+RACH INFO SF 994240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 32 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 33 B 0 SIZE 133 SRC 2 DST 1 T 1015.7
+RACH INFO SF 1016000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 33 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 34 B 1 SIZE 133 SRC 3 DST 1 T 1054.24
+RACH INFO SF 1054400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 34 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 35 B 0 SIZE 133 SRC 2 DST 1 T 1075.7
+RACH INFO SF 1075840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 35 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 36 B 1 SIZE 133 SRC 3 DST 1 T 1114.24
+RACH INFO SF 1114240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 36 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 37 B 0 SIZE 133 SRC 2 DST 1 T 1135.7
+RACH INFO SF 1136000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 37 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 38 B 1 SIZE 133 SRC 3 DST 1 T 1174.24
+RACH INFO SF 1174400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 38 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 39 B 0 SIZE 133 SRC 2 DST 1 T 1195.7
+RACH INFO SF 1195840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 39 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 40 B 1 SIZE 133 SRC 3 DST 1 T 1234.24
+RACH INFO SF 1234240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 40 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 41 B 0 SIZE 133 SRC 2 DST 1 T 1255.7
+RACH INFO SF 1256000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 41 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 42 B 1 SIZE 133 SRC 3 DST 1 T 1294.24
+RACH INFO SF 1294400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 42 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 43 B 0 SIZE 133 SRC 2 DST 1 T 1315.7
+RACH INFO SF 1315840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 43 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 44 B 1 SIZE 133 SRC 3 DST 1 T 1354.24
+RACH INFO SF 1354240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 44 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 45 B 0 SIZE 133 SRC 2 DST 1 T 1375.7
+RACH INFO SF 1376000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 45 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+TX CBR ID 46 B 1 SIZE 133 SRC 3 DST 1 T 1414.24
+RACH INFO SF 1414400 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 46 B 1 SIZE 128 SRC 3 DST 1 D 0.738
+TX CBR ID 47 B 0 SIZE 133 SRC 2 DST 1 T 1435.7
+RACH INFO SF 1435840 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 47 B 0 SIZE 128 SRC 2 DST 1 D 0.557
+TX CBR ID 48 B 1 SIZE 133 SRC 3 DST 1 T 1474.24
+RACH INFO SF 1474240 WIN 1 COLLISIONS 0 TOT 1
+	 UE 3 mcs 4 data to translate: 56
+**** NO PHY ERROR (node 1) ****
+	 UE 3 mcs 4 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 48 B 1 SIZE 128 SRC 3 DST 1 D 0.578
+TX CBR ID 49 B 0 SIZE 133 SRC 2 DST 1 T 1495.7
+RACH INFO SF 1496000 WIN 1 COLLISIONS 0 TOT 1
+	 UE 2 mcs 6 data to translate: 16
+**** NO PHY ERROR (node 1) ****
+	 UE 2 mcs 6 data to translate: 0
+**** NO PHY ERROR (node 1) ****
+RX CBR ID 49 B 0 SIZE 128 SRC 2 DST 1 D 0.717
+ SIMULATOR_DEBUG: Stop (10836973 events)

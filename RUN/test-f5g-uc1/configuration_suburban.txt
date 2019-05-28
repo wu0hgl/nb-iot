@@ -1,0 +1,14 @@
+density_values="200 240 280 320 360 400"
+speed_values="3 120"
+
+bitrate=50
+duration=3
+seed_max=10
+isd=0.25
+
+KPI0_cdf_data_time="${results_dir}/KPI0_cdf_time_suburban.txt"
+KPI0_cdf_data_space="${results_dir}/KPI0_cdf_space_suburban.txt"
+
+KPI0_data="${results_dir}/KPI0_data_suburban.txt"
+KPI1_data="${results_dir}/KPI1_data_suburban.txt"
+KPI2_data="${results_dir}/KPI2_data_suburban.txt"

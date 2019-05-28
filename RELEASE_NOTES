@@ -1,0 +1,29 @@
+   5G-simulator RELEASE NOTES
+=========================
+
+This file contains 5G-simulator release notes
+(ordered from the most recent one).
+
+Release 18.06
+=============
+
+Availability
+------------
+This release is available from this git repository
+        https://bitbucket.org/telematicslab/5g-simulator.git
+
+
+Supported platforms
+-------------------
+tested on
+       - Linux amd64 Ubuntu 16.04 with g++ 5.4.0
+
+New user-visible features
+-------------------------
+  - MIMO transmission modes up to TM9
+  - HARQ retransmissions
+  - MBSFN multicast and broadcast transmission
+  - SRTA-PI technique for channel estimation at high speed
+  - Random access procedure
+    NB-IoT functionality
+

@@ -1,0 +1,41 @@
+set terminal postscript eps enhanced
+
+set output "throughput.eps"
+set title "Cell throughput with 3-sector cell (with interference)"
+set style data histogram
+set style histogram cluster gap 1
+set style fill pattern border 
+set auto x
+set xlabel "Number of users"
+set ylabel "Cell throughput (Mbit/s)"
+set yrange [0:150]
+set grid
+set key top right
+#plot for [COL=2:9] "throughput.txt" using 1:COL with linespoints lw 2 ps 1.5 title columnheader
+plot for [COL=2:9] "throughput.txt" using COL:xtic(1) title columnheader
+
+set output "throughput_per_user.eps"
+set title "Throughput per user with 3-sector cell (with interference)"
+set xlabel "Number of users"
+set ylabel "Throughput per user (Mbit/s)"
+set yrange [0:10]
+set key top right
+plot for [COL=2:9] "throughput_per_user.txt" using 1:COL with linespoints lw 2 ps 1.5 title columnheader
+
+set output "PLR.eps"
+set title "Packet Loss Ratio"
+set style data histogram
+set style histogram cluster gap 1
+set style fill pattern border 
+set auto x
+set xlabel "Number of users"
+set ylabel "PLR (%)"
+set yrange [0:100]
+set grid
+set key top right
+plot for [COL=2:9] "PLR.txt" using COL:xtic(1) title columnheader
+
+#set output "cdf_throughput_5ue.eps"
+#set title "Throughput CDF"
+#set style line
+#set xlabel "Throughput (Mbps)"

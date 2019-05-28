@@ -1,0 +1,5 @@
+lte_sim=../../LTE-Sim
+simulation_file="simulation.txt"
+user_plot_file="userplot.png"
+duration=1
+seed=42
