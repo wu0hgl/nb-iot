@@ -1030,7 +1030,8 @@ DEBUG_LOG_END
     {
      nbOfPaths = 1;
     }
-  int nbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetDlSubChannels ().size ();
+  //int nbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetDlSubChannels ().size ();
+  int nbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetUlSubChannels ().size ();	// by zyb 信道修改为上行个数
 
   loss.resize (nbOfPaths);
 
@@ -1213,7 +1214,8 @@ ChannelRealization::UpdateFastFading (void)
       m_fastFadingPhases->at(i).resize(0);
     }
 
-  int numbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetDlSubChannels ().size ();
+  //int numbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetDlSubChannels ().size ();
+  int numbOfSubChannels = GetSourceNode ()->GetPhy ()->GetBandwidthManager ()->GetUlSubChannels ().size ();		// by zyb 信道修改为上行个数
   int samplingTime = GetSamplingPeriod () * 1000;
   int speed;
   UserEquipment* ue;
