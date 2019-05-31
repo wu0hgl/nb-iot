@@ -427,7 +427,7 @@ ChannelRealization::ShortTermUpdate(void)
       }
 
     double shadowing_correlation_factor = exp(-(Simulator::Init()->Now()-m_lastShortTermUpdate)*speed/shadowing_correlation_distance);
-    double e = GetGaussianRandomVariable(0,m_shadowingStddev*sqrt(1-pow(shadowing_correlation_factor,2)));
+    double e = GetGaussianRandomVariable(0,m_shadowingStddev*sqrt(1-pow(shadowing_correlation_factor,2)));		// 高斯随机变量?
     m_shadowing = m_shadowing * shadowing_correlation_factor + e;
 
     m_lastShortTermUpdate = Simulator::Init()->Now();

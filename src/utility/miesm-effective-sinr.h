@@ -133,8 +133,8 @@ GetMiesmEffectiveSinr (const vector <double> &sinrs)
   for (int modulationOrder=2; modulationOrder<7; modulationOrder+=2)
     {
       double estimated_effsinr = GetMiesmEffectiveSinr(sinrs, modulationOrder);
-      int estimated_cqi = amc->GetCQIFromSinr(estimated_effsinr);
-      int estimated_mcs = amc->GetMCSFromCQI(estimated_cqi);
+      int estimated_cqi = amc->GetCQIFromSinr(estimated_effsinr);					// 估计cqi?
+      int estimated_mcs = amc->GetMCSFromCQI(estimated_cqi);						// 估计mcs?
       int estimated_modulation_order = amc->GetModulationOrderFromMCS(estimated_mcs);
       if(estimated_modulation_order == modulationOrder)
         {
